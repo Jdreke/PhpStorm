@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'abelregular';
+    src: url('abel-regular-webfont.eot') format('eot'),
+         url('abel-regular-webfont.woff') format('woff'),
+         url('abel-regular-webfont.ttf') format('truetype'),
+         url('abel-regular-webfont.svg') format('svg');
+}
+
+body
+{
+    background: url("images/systeme-solaire.jpg") fixed;
+    color: white;
+}
+
+mark
+{
+    text-align: right;
+    color: white;
+}
+
+h2
+{
+    border-left: 5px yellow solid;
+    border-right: 5px deeppink solid;
+    color: cornflowerblue; /* Le nom des catégories est en bleu */
+    font-family: "Arial Black", Verdana, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.italique
+{
+    font-style: italic;
+    box-shadow: 6px 6px 6px black;
+}
+
+.gras
+{
+    font-weight: bold;
+    text-shadow: 2px 2px 4px brown;
+}
+
+.lien
+{
+    font-weight: bold;
+    color: white;
+}
+
+.lien:hover
+{
+    color: lightgray;
+}
+
+.lien:active
+{
+    color: lightgoldenrodyellow;
+}
+
+.lien:visited
+{
+    color: lightgoldenrodyellow;
+}
+
+#photo
+{
+    float: right;
+}
+
